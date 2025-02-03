@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto Portfólio">
+    <meta name="author" content="Felipe Macedo Ribeiro">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    <!-- Cabeçalho da Página (header) -->
+    <header>
+
+        <!-- Div Conteúdo do Cabeçalho -->
+        <div id="header_content">
+
+            <!-- Título do Cabeçalho -->
+            <div id="titulo">
+                <h1>Felipe Macedo</h1>
+            </div>
+
+            <!-- Conteúdo do Menu da Página (header) -->
+            <div id="menu"> 
+                
+                <!-- Menu da Página -->
+                <nav>
+                    
+                    <!-- Marcadores não ordenados + links -->
+                    <ul id="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Seção Principal da Página (main) -->
+    <main>
+
+        <!-- Seção Formulário de Contato e Redes Sociais -->
+        <section id="contact">
+
+            <!-- Seção do Formulário -->
+            <form action="#" method="submit" id="formulario">
+
+                <label for="name">Nome</label>
+                <input id="name" type="text" name="name" placeholder="Digite seu nome" required>
+                <span id="txtNome"></span>
+
+                <label for="email">E-mail</label>
+                <input id="email" type="text" name="email" placeholder="Digite seu email" required>
+                <span id="txtEmail"></span>
+
+                <label for="subject">Assunto:</label>
+                <input id="subject" type="text" name="subject" placeholder="Digite o título da mensagem" required>
+                <span id="txtSubject"></span>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" placeholder="Digite sua mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <!-- Seção do Google Maps -->
+            <article id="mapa">
+                <p>Rua Camanducaia, 375</p>
+                <p>Mogi das Cruzes - SP</p>
+
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3660.0011059186554!2d-46.2785615!3d-23.4604246!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce7eac5bc20849%3A0xa598efaadb878f9e!2sR.%20Camanducaia%20-%20Mogi%20das%20Cruzes%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1738612954480!5m2!1spt-BR!2sbr" 
+                    width="400" 
+                    height="300" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    id="mapa">
+                </iframe>
+            </article>
+        </section>
+    </main>
+
+    <!-- Rodapé da Página (footer) -->
+    <footer>
+
+        <!-- Seção de Contato - Redes Sociais -->
+        <section>
+            <a href="https://www.linkedin.com/in/felipe-macedo-dev/" target="_blank">
+                <img src="./assets/linkedIn.png" alt="Logo do LinkedIn"/>
+            </a>
+            <a href="https://github.com/FehMacedo10" target="_blank">
+                <img src="./assets/github.png" alt="Logo do Github" />
+            </a>
+            <a href="https://github.com/FehMacedo10" target="_blank">
+                <img src="./assets/instagram.png" alt="Logo do Instagram" />
+            </a>
+        </section>
+        <section>
+            <h3>Feito com ❤️ por Felipe Macedo - 2025</h3>
+        </section>
+    </footer>
+</body>
+</html>
