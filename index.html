@@ -7,6 +7,8 @@
     <meta name="author" content="Felipe Macedo Ribeiro">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" href="./assets/img/favicon.svg" type="image/svg"/>
+    <!-- Link para a Folha de Estilo da Página - CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Meu Portfólio</title>
 </head>
 <body>
@@ -14,7 +16,7 @@
     <header>
 
         <!-- Div Conteúdo do Cabeçalho -->
-        <div id="header_content">
+        <div id="header_content" class="flex">
 
             <!-- Título do Cabeçalho -->
             <div id="titulo">
@@ -42,18 +44,19 @@
     <main>
 
         <!-- Seção Sobre você -->
-        <section id="about">
+        <section id="about" class="flex_start">
             
             <!-- Título da Seção -->
             <h2>Sobre o Felipe</h2>
 
             <!-- Conteúdo da Seção -->
-            <div>
+            <div id="conteudo" class="flex">
 
                 <!-- Imagem do Criador do Conteúdo -->
                 <img 
-                    src="./assets/img/user_01.svg" 
+                    src="./assets/img/Felipe Macedo (1).jpg" 
                     alt="Foto do Criador do Conteúdo"
+                    class="img_profile"
                 />
 
                 <!-- Texto sobre o criador do conteúdo -->
@@ -69,13 +72,13 @@
         </section>
 
         <!-- Seção contendo um vídeo de sua preferência -->
-        <section id="video">
+        <section id="video" class="flex_start">
 
             <!-- Título da Seção -->
             <h2>Meu vídeo favorito:</h2>
 
             <!-- Vídeo da Seção -->
-            <div id="youtube">
+            <div id="youtube" class="flex">
                 <iframe 
                     width="560" 
                     height="315" 
@@ -91,18 +94,18 @@
     </main>
 
     <!-- Rodapé da Página (footer) -->
-    <footer>
+    <footer class="flex">
 
         <!-- Seção de Contato - Redes Sociais -->
-        <section>
+        <section id="redes_sociais">
             <a href="https://www.linkedin.com/in/felipe-macedo-dev/" target="_blank">
-                <img src="./assets/img/linkedin.svg" alt="Logo do LinkedIn" />
+                <img src="./assets/img/linkedin.svg" alt="Logo do LinkedIn" class="social_icon"/>
             </a>
             <a href="https://github.com/FehMacedo10" target="_blank">
-                <img src="./assets/img/github.svg" alt="Logo do Github" />
+                <img src="./assets/img/github.svg" alt="Logo do Github" class="social_icon"/>
             </a>
             <a href="https://github.com/FehMacedo10" target="_blank">
-                <img src="./assets/img/instagram.svg" alt="Logo do Instagram" />
+                <img src="./assets/img/instagram.svg" alt="Logo do Instagram" class="social_icon"/>
             </a>
         </section>
         <section>

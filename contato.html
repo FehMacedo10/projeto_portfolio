@@ -6,6 +6,8 @@
     <meta name="description" content="Projeto Portfólio">
     <meta name="author" content="Felipe Macedo Ribeiro">
     <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="icon" href="./assets/img/favicon.svg" type="image/svg"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Meu Portfólio</title>
 </head>
 <body>
@@ -13,7 +15,7 @@
     <header>
 
         <!-- Div Conteúdo do Cabeçalho -->
-        <div id="header_content">
+        <div id="header_content" class="flex">
 
             <!-- Título do Cabeçalho -->
             <div id="titulo">
@@ -41,7 +43,7 @@
     <main>
 
         <!-- Seção Formulário de Contato e Redes Sociais -->
-        <section id="contact">
+        <div id="contact" class="flex">
 
             <!-- Seção do Formulário -->
             <form action="#" method="submit" id="formulario">
@@ -65,7 +67,7 @@
             </form>
 
             <!-- Seção do Google Maps -->
-            <article id="mapa">
+            <section id="mapa" class="flex_start">
                 <p>Rua Camanducaia, 375</p>
                 <p>Mogi das Cruzes - SP</p>
 
@@ -79,23 +81,23 @@
                     referrerpolicy="no-referrer-when-downgrade"
                     id="mapa">
                 </iframe>
-            </article>
-        </section>
+            </section>
+        </div>
     </main>
 
     <!-- Rodapé da Página (footer) -->
-    <footer>
+    <footer class="flex">
 
         <!-- Seção de Contato - Redes Sociais -->
-        <section>
+        <section id="redes_sociais">
             <a href="https://www.linkedin.com/in/felipe-macedo-dev/" target="_blank">
-                <img src="./assets/linkedIn.png" alt="Logo do LinkedIn"/>
+                <img src="./assets/img/linkedin.svg" alt="Logo do LinkedIn" class="social_icon"/>
             </a>
             <a href="https://github.com/FehMacedo10" target="_blank">
-                <img src="./assets/github.png" alt="Logo do Github" />
+                <img src="./assets/img/github.svg" alt="Logo do Github" class="social_icon" />
             </a>
             <a href="https://github.com/FehMacedo10" target="_blank">
-                <img src="./assets/instagram.png" alt="Logo do Instagram" />
+                <img src="./assets/img/instagram.svg" alt="Logo do Instagram" class="social_icon"/>
             </a>
         </section>
         <section>
